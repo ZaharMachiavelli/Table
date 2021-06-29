@@ -137,10 +137,10 @@ div, td, h2, p {
   margin: 0;
   display: inline-block;
   background-color: #C6E5FB;
-  padding: 20px 15% 15px 27px;
+  padding: 20px 9% 10px 27px;
   text-transform: uppercase;
   margin-left: 2px;
-  font-size: 24px;
+  font-size: 22px;
 }
 .title div, .titleprof div {
   width: 0;
@@ -1643,13 +1643,17 @@ div, td, h2, p {
     font-size: 18px;
     width: 90%;
   }
+
+  .colortable .colors .colorcol .colorpro {
+    margin-bottom: 0px;
+  }
 }
 @media (min-width: 766px) and (max-width: 951px) {
   div {
     font-size: 12px;
   }
 
-  h2 {
+  .titleprof h2 {
     padding: 0;
     display: flex;
     align-items: center;

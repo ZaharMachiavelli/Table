@@ -126,7 +126,7 @@
 
     <div class="container">
         <div class="titleprof">
-            <h2>Предметы по выбору (hard skills #1)</h2>
+            <h2>ПРЕДМЕТЫ ПО ВЫБОРУ: Профильный блок 1 (HARD SKILLS #1)</h2>
             <div></div>
         </div>
         
@@ -230,12 +230,12 @@
 
                             <div class="colorpro">
                                 <div class="colorid orange"></div>
-                                <p>Администратор баз<br>данных</p>
+                                <p id="adminofbd">Администратор баз<br>данных</p>
                             </div>
 
                             <div class="colorpro">
                                 <div class="colorid lightorange"></div>
-                                <p>Системный администратор <br> ИС (DevOps инженер)</p>
+                                <p id="sysadmin">Системный администратор <br> ИС (DevOps инженер)</p>
                             </div>
 
                             <div class="colorpro">
@@ -304,7 +304,7 @@
            
             
         <div class="titleprof">
-            <h2>Предеметы по выбору (hard skills #2)</h2>
+            <h2>ПРЕДМЕТЫ ПО ВЫБОРУ: Профильный блок 2 (HARD SKILLS #2)</h2>
             <div></div>
         </div>
                 
@@ -333,7 +333,7 @@
     
     <div class="container">
         <div class="titleprof">
-            <h2>Профильный блок (математика)</h2>
+            <h2>ПРЕДЕМЕТЫ ПО ВЫБОРУ: Математический блок</h2>
             <div></div>
         </div>
         
@@ -360,7 +360,7 @@
 
     <div class="container">
         <div class="titleprof">
-            <h2>Предметы по выбору (Soft skills)</h2>
+            <h2>ПРЕДЕМЕТЫ ПО ВЫБОРУ: Гуманитарный блок (SOFT SKILLS)</h2>
             <div></div>
         </div>
         
@@ -392,68 +392,14 @@
     </div>
     </div>
 
-<!--     <script>
-        let height = document.querySelector(".tablescience").offsetHeight;
-        document.querySelector(".VKR").style.height = height+"px";
-       
-    
-        let mathwidth = document.querySelector(".emptytd").offsetWidth;
-        let leftmargin = document.querySelector(".emptytd").offsetWidth*4 + 4;
-        let mathTd = document.querySelectorAll(".math");
-    
-        for (let i=0;i<mathTd.length;i++) {
-            mathTd[i].style.width = mathwidth*3+"px";
-            mathTd[i].style.marginLeft = leftmargin+"px";
-        }
-
-
-        let skill =  document.querySelectorAll(".skill");
-        let skills = document.querySelectorAll(".skills");
-        for (let i=0;i<skills.length; i++) {
-            skills[i].style.marginLeft = leftmargin+"px";
-        }
-
-        for (let i=0;i<skill.length;i++) {
-            skill[i].style.width = mathwidth+"px";
-        }
-        let bigskill = document.querySelector(".bigskill");
-        bigskill.style.width = mathwidth+"px";
-        bigskill.style.height = 22+skill[0].offsetHeight*3+"px";
-
-        let hards = document.querySelectorAll(".hard, .twohard, .threehard");
-        document.querySelector(".hardtable").style.marginLeft = mathwidth*2+2+"px";
-        for( let i=0;i<hards.length;i++) {
-            hards[i].style.width = mathwidth+"px";
-        }
-        let twohards = document.querySelectorAll(".twohard");
-        for( let i=0;i<twohards.length;i++) {
-            twohards[i].style.height = hards[0].offsetHeight*2+11+"px";
-        }
-
-        document.querySelector(".threehard").style.height = hards[0].offsetHeight*3+22+"px";
-        
-        document.querySelector(".vkrhard").style.width = mathwidth+"px";
-
-        let sixWidth = document.querySelectorAll(".sixwidth");
-        let twoWidth = document.querySelectorAll(".twowidth");
-        let semestrs = document.querySelectorAll(".semestr");
-        let threeWidth = document.querySelectorAll(".threewidth")
-        let fourWidth = document.querySelectorAll(".fourwidth");
-
-        function giveWidth(array, cof) {
-            for (let i=0;i<array.length;i++) {
-                array[i].style.width = mathwidth*cof+"px";
+ <script>
+        if (document.documentElement.clientWidth < 766) {
+                document.querySelector(".selfmanagement").innerHTML="Самоменджмент";
+                document.querySelector(".mathsemestr").innerHTML="Семестр V, VI, VII";
+                document.querySelector("#adminofbd").innerHTML="Администратор баз данных"
+                document.querySelector("#sysadmin").innerHTML="Системный администратор ИС (DevOps инженер)"
             }
-        }
-
-        document.querySelector(".mathsemestr").style.width = mathwidth+"px";
-        document.querySelector(".softsemestr").style.width = mathwidth+"px";
-        document.querySelector(".hardskills").style.marginLeft = -mathwidth*2+2+"px";
-        document.querySelector(".colortable").style.width = mathwidth*4+3-20+"px";
-        giveWidth(sixWidth,6); giveWidth(twoWidth,2); giveWidth(semestrs,1); giveWidth(threeWidth,3); giveWidth(fourWidth,4);
-
-
-    </script> -->
+    </script> 
 </body>
 
 </html>
