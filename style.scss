@@ -138,7 +138,7 @@ div, td, h2, p {
         margin: 0;
         display: inline-block;
         background-color: #C6E5FB;
-        padding: 20px 30% 15px 27px;
+        padding: 20px 15% 15px 27px;
         text-transform: uppercase;
         margin-left: 2px;
         font-size: 24px;
@@ -572,19 +572,19 @@ div, td, h2, p {
 .maintable {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(8,12.5%);
+    grid-template-columns: repeat(8,12.4%);
     grid-template-rows: 33px repeat(11,72px);
     column-gap: 1px;
     row-gap: 11px;
     grid-template-areas: 
     "M1 M2 M3 M4 M5 M6 M7 M8"
     "PH PH PH PH PH PH E1 VK"
-    "HI PI CO BU SO SO SO VK"
+    "HI PI CO BU SO SO2 SO3 VK"
     "BZ FI FI MA MI E2 E2 VK"
-    "EN EN H1 H1 H1 H1 H1 VK"
-    "MT MT TH AL MY MY MY VK"
+    "EN EN H1 H3 H4 H6 H7 VK"
+    "MT MT TH AL MY MY2 MY3 VK"
     "PA PA LO DI E3 E3 E3 VK"
-    "IN EG E4 SP H2 H2 H2 VK"
+    "IN EG E4 SP H2 H5 H8 VK"
     "PR PR PY OP AN MO PJ VK"
     "E7 E7 WE CS SY PG IO VK"
     "E7 E7 DA CM VI E6 E6 VK"
@@ -669,19 +669,25 @@ div, td, h2, p {
 .VKR {grid-area:VK; background-color: #FAE2C5;display: flex;}
 .fizra2 {display: none;background-color: #FAE2C5; grid-area: PH2;}
 .physics2{display: none; background-color: #FAE2C5; grid-area: FI2;}
-.hardyak3{display: none; background-color: #C6E5FB; grid-area:H3;}
+.hardyak3{display: flex; background-color: #C6E5FB; grid-area:H3;}
 .projprac2{display: none;background-color: #FAE2C5; grid-area: PP2;}
 .fizra3{display: none;background-color: #FAE2C5;grid-area: PH3;}
-.softyar2{display: none;background-color: #FFCA93; grid-area: SO2;}
+.softyar2{display: flex;background-color: #FFCA93; grid-area: SO2;}
 .projprac3{display: none; background-color: #FAE2C5; grid-area: PP3;}
-.hardyak4{display: none; background-color: #C6E5FB; grid-area:H4;}
-.matyan2{display: none; background-color: #C09A72; color: #fff; grid-area: MY2;}
-.hardyak5{display: none; background-color: #C6E5FB; grid-area:H5;}
+.hardyak4{display: flex; background-color: #C6E5FB; grid-area:H4;}
+.matyan2{display: flex; background-color: #C09A72; color: #fff; grid-area: MY2;}
+.hardyak5{display: flex; background-color: #C6E5FB; grid-area:H5;}
 .projprac4{display: none; background-color: #FAE2C5; grid-area: PP4;}
+.softyar3{display: flex;background-color: #FFCA93; grid-area: SO3;}
+.hardyak6{display: flex; background-color: #C6E5FB; grid-area:H6;}
+.hardyak7{display: flex; background-color: #C6E5FB; grid-area:H7;}
+.matyan3{display: flex; background-color: #C09A72; color: #fff; grid-area: MY3;}
+.hardyak8{display: flex; background-color: #C6E5FB; grid-area:H8;}
+
 
 @media (max-width:765px) {
     .maintable {
-        grid-template-columns: repeat(2,50%);
+        grid-template-columns: repeat(2,49.9%);
         grid-template-rows: 33px repeat(9,72px) 33px repeat(11,72px) 33px repeat(10,72px) 33px repeat(11,72px);
         grid-template-areas: 
         "M1 M2"
@@ -736,14 +742,14 @@ div, td, h2, p {
     }
 
     .fizra2,.physics2,.hardyak3,.projprac2,.fizra3,.softyar2,.projprac3, .hardyak4,.matyan2, .hardyak5,.projprac4 {display: flex;}
-    
+    .softyar3, .hardyak6,.hardyak7,.matyan3,.hardyak8{display: none;}
 }
 
 
 .hardtable {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(8,12.5%);
+    grid-template-columns: repeat(8,12.4%);
     
     column-gap: 1px;
     row-gap: 11px;
@@ -906,12 +912,12 @@ div, td, h2, p {
 
     grid-template-rows: 33px repeat(16,70px);
     grid-template-areas: 
-    "D1 D2 D3 D4 D5 D6 D7 D8"
-    "E8 E8 jv jv2 po pa is kr"
-    "E8 E8 js js2 po an io kr"
-    "E8 E8 ph ph2 po we se kr"
-    "E8 E8 E9 py2 ma bd cv kr"
-    "E8 E8 E9 sh ga d3 re kr"
+    "D1 D2 TTT TTT D5 D6 D7 D8"
+    "E8 E8 TTT TTT po pa is kr"
+    "E8 E8 TTT TTT po an io kr"
+    "E8 E8 TTT TTT po we se kr"
+    "E8 E8 TTT TTT ma bd cv kr"
+    "E8 E8 TTT TTT ga d3 re kr"
     "ce ce ce ce te un tt kr"
     "ce ce ce ce sy c1 sy2 kr"
     "ce ce ce ce sy ac ig kr"
@@ -946,6 +952,18 @@ div, td, h2, p {
 .hardsem7{grid-area: D7;}
 .hardsem8{grid-area: D8;}
 
+
+.programmingskills { grid-area: TTT ;display: grid;grid-template-columns: repeat(2,49.9%);grid-template-rows: 33px repeat(5,70px);column-gap: 1px; row-gap: 11px;
+
+    grid-template-areas: 
+    "D3 D4"
+    "jv jv2"
+    "js js2"
+    "ph ph2"
+    "E9 py2"
+    "E9 sh"
+    ;
+}
 .java{grid-area: jv;}
 .js{grid-area: js;}
 .php{grid-area: ph;}
@@ -1005,37 +1023,43 @@ div, td, h2, p {
 
 @media (max-width:765px) {
     .hardtable {
-        grid-template-columns: repeat(5,20%);
-        grid-template-rows: 33px repeat(27,70px);
+        grid-template-columns: repeat(3,33.3%);
+        grid-template-rows: 33px repeat(5,70px) 33px repeat(27,70px);
         grid-template-areas: 
-        "D3 D4 D5 D6 D7"
-        "jv jv2 po pa is"
-        "js js2 po an io"
-        "ph ph2 po we se"
-        ". py2 ma bd cv"
-        ". sh ga d3 re"
-        ". . te un tt"
-        ". . sy c1 sy2"
-        ". . sy ac ig"
-        ". . ld sp cp"
-        ". . ld mc rt"
-        ". . db fd pd"
-        ". . ss so ah"
-        ". . gh fi ri"
-        ". . pr pg ks"
-        ". . sl mg ux"
-        ". . mt ts sc"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
-        "ce ce ce ce ce"
+        "TTT TTT TTT"
+        "TTT TTT TTT"
+        "TTT TTT TTT"
+        "TTT TTT TTT"
+        "TTT TTT TTT"
+        "TTT TTT TTT"
+        "D5 D6 D7"
+        "po pa is"
+        "po an io"
+        "po we se"
+        "ma bd cv"
+        "ga d3 re"
+        "te un tt"
+        "sy c1 sy2"
+        "sy ac ig"
+        "ld sp cp"
+        "ld mc rt"
+        "db fd pd"
+        "ss so ah"
+        "gh fi ri"
+        "pr pg ks"
+        "sl mg ux"
+        "mt ts sc"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
+        "ce ce ce"
         ;
 
         .colortable {
@@ -1067,7 +1091,7 @@ div, td, h2, p {
 .profmathskills{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(8,12.5%);
+    grid-template-columns: repeat(8,12.4%);
     grid-template-rows: repeat(3, 33px);
     column-gap: 1px;
     row-gap: 11px;
@@ -1105,7 +1129,7 @@ div, td, h2, p {
 
 @media (max-width:765px) {
     .profmathskills{
-        grid-template-columns: repeat(3,33.3%);
+        grid-template-columns: repeat(3,33.2%);
         grid-template-rows: repeat(8, 33px);
         grid-template-areas: 
         "a a a"
@@ -1127,7 +1151,7 @@ div, td, h2, p {
 .profskills {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(8,12.5%);
+    grid-template-columns: repeat(8,12.4%);
     grid-template-rows: repeat(5, 33px);
     column-gap: 1px;
     row-gap: 11px;
@@ -1174,19 +1198,29 @@ div, td, h2, p {
 @media (max-width:765px) {
 
     .profskills {
-        grid-template-columns: repeat(5,20%);
-        grid-template-rows: repeat(8, 33px);
+        grid-template-columns: repeat(1,99.7%);
+        grid-template-rows: repeat(16, 25px);
         grid-template-areas: 
-        "l l l l l"
-        "m o s w z"
-        "m o s x z"
-        "m p t x z"
-        "m p t y aa"
-        "bb q u y aa"
-        "bb q u E11 aa"
-        "n q v E12 E12"
+        "l"
+        "m"
+        "bb"
+        "n"
+        "o"
+        "p"
+        "q"
+        "s"
+        "t"
+        "u"
+        "v"
+        "w"
+        "x"
+        "y"
+        "z"
+        "aa"
         ;
     }
+
+    .empty11,.empty12{display: none;}
 }
 
 @media (max-width: 765px) {
@@ -1209,6 +1243,21 @@ div, td, h2, p {
             display: flex;
             align-items: center;
             font-size: 18px;
+            width: 90%;
         }
+    }
+}
+
+@media (min-width:766px) and (max-width:951px) {
+    div {
+        font-size: 12px;
+    }
+
+    h2 {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        width: 90%;
     }
 }
