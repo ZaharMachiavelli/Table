@@ -689,7 +689,7 @@ div, td, h2, p {
 @media (max-width:765px) {
     .maintable {
         grid-template-columns: repeat(2,49.9%);
-        grid-template-rows: 33px repeat(9,72px) 33px repeat(11,72px) 33px repeat(10,72px) 33px repeat(11,72px);
+        grid-template-rows: 33px repeat(9,72px) 33px repeat(11,72px) 33px repeat(10,72px) 33px repeat(7,72px);
         grid-template-areas: 
         "M1 M2"
         "PH PH"
@@ -728,22 +728,18 @@ div, td, h2, p {
         "PP3 PP3"
 
         "M7 M8"
-        "E4 VK"
         "SO2 VK"
-        "E5 VK"
         "H4 VK"
         "MY2 VK"
-        "E6 VK"
         "H5 VK"
         "PJ VK"
         "IO VK"
-        "E7 VK"
         "PP4 VK"
         ;
     }
 
     .fizra2,.physics2,.hardyak3,.projprac2,.fizra3,.softyar2,.projprac3, .hardyak4,.matyan2, .hardyak5,.projprac4 {display: flex;}
-    .softyar3, .hardyak6,.hardyak7,.matyan3,.hardyak8{display: none;}
+    .softyar3, .hardyak6,.hardyak7,.matyan3,.hardyak8,.empty5,.empty6,.empty4,.empty7{display: none;}
 }
 
 
@@ -1199,25 +1195,33 @@ div, td, h2, p {
 @media (max-width:765px) {
 
     .profskills {
-        grid-template-columns: repeat(1,99.7%);
-        grid-template-rows: repeat(16, 25px);
+        grid-template-columns: repeat(3,33.3%);
+        grid-template-rows: repeat(7, 25px);
         grid-template-areas: 
-        "l"
-        "m"
-        "bb"
-        "n"
-        "o"
-        "p"
-        "q"
-        "s"
-        "t"
-        "u"
-        "v"
-        "w"
-        "x"
-        "y"
-        "z"
-        "aa"
+        // "l"
+        // "m"
+        // "bb"
+        // "n"
+        // "o"
+        // "p"
+        // "q"
+        // "s"
+        // "t"
+        // "u"
+        // "v"
+        // "w"
+        // "x"
+        // "y"
+        // "z"
+        // "aa"
+
+        "l l l"
+        "m q z"
+        "m q z"
+        "bb s w"
+        "n t x"
+        "o u y"
+        "p v aa"
         ;
     }
 

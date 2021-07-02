@@ -1,86 +1,67 @@
 .hardyak {
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
 }
-
 .aqua {
-  background-color: #36F5E2;
+  background-color: #36f5e2;
 }
-
 .darkblue {
-  background-color: #3547F4;
-  color: #FFFFFF;
+  background-color: #3547f4;
+  color: #fff;
 }
-
 .ice {
-  background-color: #6236F5;
-  color: #FFFFFF;
+  background-color: #6236f5;
+  color: #fff;
 }
-
 .purple {
-  background-color: #A236F5;
+  background-color: #a236f5;
 }
-
 .lightpurple {
-  background-color: #E236F5;
+  background-color: #e236f5;
 }
-
 .lightpink {
-  background-color: #F53689;
-  color: #FFFFFF;
+  background-color: #f53689;
+  color: #fff;
 }
-
 .orange {
-  background-color: #F56236;
-  color: #FFFFFF;
+  background-color: #f56236;
+  color: #fff;
 }
-
 .lightorange {
-  background-color: #F5A236;
-  color: #FFFFFF;
+  background-color: #f5a236;
+  color: #fff;
 }
-
 .lemon {
-  background-color: #E8F536;
+  background-color: #e8f536;
 }
-
 .lime {
-  background-color: #A8F536;
+  background-color: #a8f536;
 }
-
 .salad {
-  background-color: #36F562;
+  background-color: #36f562;
 }
-
 .water {
-  background-color: #36F5A2;
+  background-color: #36f5a2;
 }
-
 .halfpurple {
-  background-color: #3689F5;
-  color: #FFFFFF;
+  background-color: #3689f5;
+  color: #fff;
 }
-
 .lightblue {
-  background-color: #36C8F5;
+  background-color: #36c8f5;
 }
-
 .red {
-  background-color: #F53649;
-  color: #FFFFFF;
+  background-color: #f53649;
+  color: #fff;
 }
-
 .lightpurpleice {
-  background-color: #F536C8;
+  background-color: #f536c8;
 }
-
 html, body {
-  height: 100%;
   box-sizing: border-box;
   hyphens: auto;
   hyphenate-limit-chars: 6 3 2;
   margin: 0px;
 }
-
 div, td, h2, p {
   -webkit-hyphens: auto;
   -webkit-hyphenate-limit-before: 3;
@@ -107,18 +88,15 @@ div, td, h2, p {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .wrapper {
   width: 100%;
   min-height: 100%;
 }
-
 .container {
   max-width: 950px;
   margin: 0 auto;
   margin-bottom: 55px;
 }
-
 .VKR {
   flex: 0 0 calc(12.5% - 1px);
   display: flex;
@@ -126,7 +104,6 @@ div, td, h2, p {
   align-items: center;
   height: 100%;
 }
-
 .title, .titleprof {
   display: flex;
   justify-content: flex-start;
@@ -136,7 +113,7 @@ div, td, h2, p {
 .title h2, .titleprof h2 {
   margin: 0;
   display: inline-block;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   padding: 20px 9% 10px 27px;
   text-transform: uppercase;
   margin-left: 2px;
@@ -145,14 +122,12 @@ div, td, h2, p {
 .title div, .titleprof div {
   width: 0;
   height: 0;
-  border-top: 62px solid #C6E5FB;
+  border-top: 62px solid #c6e5fb;
   border-right: 50px solid transparent;
 }
-
 .titleprof {
   margin-bottom: 28px;
 }
-
 .firsttable {
   margin-top: 1px;
   width: 100%;
@@ -178,21 +153,20 @@ div, td, h2, p {
   margin-bottom: 29px;
 }
 .firsttable .firstrow td {
-  background-color: #C3CED5;
+  background-color: #c3ced5;
 }
 .firsttable .secondrow td {
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
 }
 .firsttable .secondrow .emptytd {
-  background-color: #ffffff;
+  background-color: #fff;
 }
-
 .maintable {
   display: flex;
   width: 100%;
 }
 .maintable .VKR {
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
 }
 .maintable .tablescience {
   table-layout: fixed;
@@ -222,12 +196,11 @@ div, td, h2, p {
   margin-bottom: 11px;
 }
 .maintable .tablescience .secondrow .emptytd {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .maintable .tablescience .secondrow:last-child {
   margin-bottom: 0px;
 }
-
 .hardtable .hardskills {
   margin-top: 11px;
 }
@@ -246,61 +219,60 @@ div, td, h2, p {
   margin-bottom: 0px;
 }
 .hardtable .hardskills .column .aqua, .hardtable .pretable .column .aqua {
-  background-color: #36F5E2;
+  background-color: #36f5e2;
 }
 .hardtable .hardskills .column .darkblue, .hardtable .pretable .column .darkblue {
-  background-color: #3547F4;
-  color: #FFFFFF;
+  background-color: #3547f4;
+  color: #fff;
 }
 .hardtable .hardskills .column .ice, .hardtable .pretable .column .ice {
-  background-color: #6236F5;
-  color: #FFFFFF;
+  background-color: #6236f5;
+  color: #fff;
 }
 .hardtable .hardskills .column .purple, .hardtable .pretable .column .purple {
-  background-color: #A236F5;
+  background-color: #a236f5;
 }
 .hardtable .hardskills .column .lightpurple, .hardtable .pretable .column .lightpurple {
-  background-color: #E236F5;
+  background-color: #e236f5;
 }
 .hardtable .hardskills .column .lightpink, .hardtable .pretable .column .lightpink {
-  background-color: #F53689;
-  color: #FFFFFF;
+  background-color: #f53689;
+  color: #fff;
 }
 .hardtable .hardskills .column .orange, .hardtable .pretable .column .orange {
-  background-color: #F56236;
-  color: #FFFFFF;
+  background-color: #f56236;
+  color: #fff;
 }
 .hardtable .hardskills .column .lightorange, .hardtable .pretable .column .lightorange {
-  background-color: #F5A236;
-  color: #FFFFFF;
+  background-color: #f5a236;
+  color: #fff;
 }
 .hardtable .hardskills .column .lemon, .hardtable .pretable .column .lemon {
-  background-color: #E8F536;
+  background-color: #e8f536;
 }
 .hardtable .hardskills .column .lime, .hardtable .pretable .column .lime {
-  background-color: #A8F536;
+  background-color: #a8f536;
 }
 .hardtable .hardskills .column .salad, .hardtable .pretable .column .salad {
-  background-color: #36F562;
+  background-color: #36f562;
 }
 .hardtable .hardskills .column .water, .hardtable .pretable .column .water {
-  background-color: #36F5A2;
+  background-color: #36f5a2;
 }
 .hardtable .hardskills .column .halfpurple, .hardtable .pretable .column .halfpurple {
-  background-color: #3689F5;
-  color: #FFFFFF;
+  background-color: #3689f5;
+  color: #fff;
 }
 .hardtable .hardskills .column .lightblue, .hardtable .pretable .column .lightblue {
-  background-color: #36C8F5;
+  background-color: #36c8f5;
 }
 .hardtable .hardskills .column .red, .hardtable .pretable .column .red {
-  background-color: #F53649;
-  color: #FFFFFf;
+  background-color: #f53649;
+  color: #fff;
 }
 .hardtable .hardskills .column .lightpurpleice, .hardtable .pretable .column .lightpurpleice {
-  background-color: #F536C8;
+  background-color: #f536c8;
 }
-
 .hard, .twohard, .threehard {
   background-color: lightblue;
   display: flex;
@@ -309,11 +281,9 @@ div, td, h2, p {
   border-radius: 5px;
   justify-content: center;
 }
-
 .hard {
   min-height: 70px;
 }
-
 .profskills, .profmathskills {
   display: flex;
 }
@@ -335,28 +305,24 @@ div, td, h2, p {
 .profskills .secondrow:last-child, .profmathskills .secondrow:last-child {
   margin-bottom: 0px;
 }
-
 .profmathskills .secondrow td {
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .profskills .secondrow td {
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .softsemestr, .mathsemestr {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #C3CED5;
+  background-color: #c3ced5;
   margin-right: 1px;
   border-radius: 5px;
 }
-
 .colortable {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   margin-right: 20px;
   border-radius: 5px;
 }
@@ -387,20 +353,16 @@ div, td, h2, p {
   border-radius: 15px;
   margin-right: 8px;
 }
-
 .default {
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
 }
-
 .matyan {
-  background-color: #C09A72;
+  background-color: #c09a72;
   color: #fff;
 }
-
 .softyar {
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .container2 {
   display: grid;
   width: 100%;
@@ -410,114 +372,90 @@ div, td, h2, p {
   row-gap: 11px;
   grid-template-areas: "S1 S2 S3 S4 S5 S6 S7 S8" "K8 K8 K8 K8 K1 K2 K7 E" "K8 K8 K8 K8 K3 K4 K7 E" "K8 K8 K8 K8 K5 K6 K7 E";
 }
-
 .skillblue {
-  background-color: #36C8F5;
+  background-color: #36c8f5;
 }
-
 .empty {
   display: grid;
   grid-area: E;
 }
-
 .skillpink {
-  background-color: #F53689;
+  background-color: #f53689;
 }
-
 .skillgreen {
-  background-color: #A8F536;
+  background-color: #a8f536;
 }
-
-[class^=learnsem] {
-  background-color: #C3CED5;
+[class^="learnsem"] {
+  background-color: #c3ced5;
   text-align: center;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .learnsem1 {
   grid-area: S1;
 }
-
 .learnsem2 {
   grid-area: S2;
 }
-
 .learnsem3 {
   grid-area: S3;
 }
-
 .learnsem4 {
   grid-area: S4;
 }
-
 .learnsem5 {
   grid-area: S5;
 }
-
 .learnsem6 {
   grid-area: S6;
 }
-
 .learnsem7 {
   grid-area: S7;
 }
-
 .learnsem8 {
   grid-area: S8;
 }
-
-[class^=skill] {
+[class^="skill"] {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   border-radius: 5px;
 }
-
 .skill1 {
   grid-area: K1;
 }
-
 .skill2 {
   grid-area: K2;
 }
-
 .skill3 {
   grid-area: K3;
 }
-
 .skill4 {
   grid-area: K4;
 }
-
 .skill5 {
   grid-area: K5;
 }
-
 .skill6 {
   grid-area: K6;
 }
-
 .skill7 {
   grid-area: K7;
 }
-
 .skill8 {
   grid-area: K8;
 }
-
 @media (max-width: 765px) {
   .container2 {
     grid-template-columns: repeat(3, 33.3%);
     grid-template-areas: "S5 S6 S7" "K1 K2 K7" "K3 K4 K7" "K5 K6 K7";
-  }
-
+ }
   .learnsem1, .learnsem2, .learnsem3, .learnsem4, .learnsem8, .empty, .skill8 {
     display: none;
-  }
+ }
 }
 .maintable {
   display: grid;
@@ -535,431 +473,356 @@ div, td, h2, p {
   border-radius: 5px;
   padding: 2px;
 }
-
-[class^=mustsem] {
-  background-color: #C3CED5;
+[class^="mustsem"] {
+  background-color: #c3ced5;
   text-align: center;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .mustsem1 {
   grid-area: M1;
 }
-
 .mustsem2 {
   grid-area: M2;
 }
-
 .mustsem3 {
   grid-area: M3;
 }
-
 .mustsem4 {
   grid-area: M4;
 }
-
 .mustsem5 {
   grid-area: M5;
 }
-
 .mustsem6 {
   grid-area: M6;
 }
-
 .mustsem7 {
   grid-area: M7;
 }
-
 .mustsem8 {
   grid-area: M8;
 }
-
 .fizra {
   grid-area: PH;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty1 {
   grid-area: E1;
 }
-
 .history {
   grid-area: HI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .philosophy {
   grid-area: PI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .communication {
   grid-area: CO;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .buisness {
   grid-area: BU;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .softyar {
   grid-area: SO;
-  background-color: #FFCA93;
+  background-color: #ffca93;
   display: flex;
 }
-
 .bzd {
   grid-area: BZ;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .physics {
   grid-area: FI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .map {
   grid-area: MA;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .mainor {
   grid-area: MI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty2 {
   grid-area: E2;
 }
-
 .english {
   grid-area: EN;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .hardyak {
   grid-area: H1;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   display: flex;
 }
-
 .maths {
   grid-area: MT;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .theory {
   grid-area: TH;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .algoritms {
   grid-area: AL;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .matyan {
   grid-area: MY;
-  background-color: #C09A72;
+  background-color: #c09a72;
   color: #fff;
   display: flex;
 }
-
 .partmath {
   grid-area: PA;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .logic {
   grid-area: LO;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .discret {
   grid-area: DI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty3 {
   grid-area: E3;
   display: flex;
 }
-
 .inftechnology {
   grid-area: IN;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .engineer {
   grid-area: EG;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty4 {
   grid-area: E4;
   display: flex;
 }
-
 .specialisation {
   grid-area: SP;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .hardyak2 {
   grid-area: H2;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   display: flex;
 }
-
 .programming {
   grid-area: PR;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .python {
   grid-area: PY;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .operation {
   grid-area: OP;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .analytic {
   grid-area: AN;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .model {
   grid-area: MO;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .project {
   grid-area: PJ;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty7 {
   grid-area: E7;
 }
-
 .web {
   grid-area: WE;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .compnetworks {
   grid-area: CS;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .sysengineer {
   grid-area: SY;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .proeng {
   grid-area: PG;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .infpro {
   grid-area: IO;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty5 {
   grid-area: E5;
 }
-
 .database {
   grid-area: DA;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .computers {
   grid-area: CM;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .virtual {
   grid-area: VI;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .empty6 {
   grid-area: E6;
 }
-
 .learnproject {
   grid-area: LT;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .projprac {
   grid-area: PP;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .VKR {
   grid-area: VK;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   display: flex;
 }
-
 .fizra2 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: PH2;
 }
-
 .physics2 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: FI2;
 }
-
 .hardyak3 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H3;
 }
-
 .projprac2 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: PP2;
 }
-
 .fizra3 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: PH3;
 }
-
 .softyar2 {
   display: flex;
-  background-color: #FFCA93;
+  background-color: #ffca93;
   grid-area: SO2;
 }
-
 .projprac3 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: PP3;
 }
-
 .hardyak4 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H4;
 }
-
 .matyan2 {
   display: flex;
-  background-color: #C09A72;
+  background-color: #c09a72;
   color: #fff;
   grid-area: MY2;
 }
-
 .hardyak5 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H5;
 }
-
 .projprac4 {
   display: none;
-  background-color: #FAE2C5;
+  background-color: #fae2c5;
   grid-area: PP4;
 }
-
 .softyar3 {
   display: flex;
-  background-color: #FFCA93;
+  background-color: #ffca93;
   grid-area: SO3;
 }
-
 .hardyak6 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H6;
 }
-
 .hardyak7 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H7;
 }
-
 .matyan3 {
   display: flex;
-  background-color: #C09A72;
+  background-color: #c09a72;
   color: #fff;
   grid-area: MY3;
 }
-
 .hardyak8 {
   display: flex;
-  background-color: #C6E5FB;
+  background-color: #c6e5fb;
   grid-area: H8;
 }
-
 @media (max-width: 765px) {
   .maintable {
     grid-template-columns: repeat(2, 49.9%);
-    grid-template-rows: 33px repeat(9, 72px) 33px repeat(11, 72px) 33px repeat(10, 72px) 33px repeat(11, 72px);
-    grid-template-areas: "M1 M2" "PH PH" "HI PI" "BZ FI" "EN EN" "MT MT" "PA PA" "IN EG" "PR PR" "LT PP" "M3 M4" "PH2 PH2" "CO BU" "FI2 MA" "H3 H3" "TH AL" "LO DI" "E1 SP" "PY OP" "WE CS" "DA CM" "PP2 PP2" "M5 M6" "PH3 PH3" "SO SO" "MI E2" "H1 H1" "MY MY" "H2 H2" "AN MO" "SY PG" "VI E3" "PP3 PP3" "M7 M8" "E4 VK" "SO2 VK" "E5 VK" "H4 VK" "MY2 VK" "E6 VK" "H5 VK" "PJ VK" "IO VK" "E7 VK" "PP4 VK";
-  }
-
+    grid-template-rows: 33px repeat(9, 72px) 33px repeat(11, 72px) 33px repeat(10, 72px) 33px repeat(7, 72px);
+    grid-template-areas: "M1 M2" "PH PH" "HI PI" "BZ FI" "EN EN" "MT MT" "PA PA" "IN EG" "PR PR" "LT PP" "M3 M4" "PH2 PH2" "CO BU" "FI2 MA" "H3 H3" "TH AL" "LO DI" "E1 SP" "PY OP" "WE CS" "DA CM" "PP2 PP2" "M5 M6" "PH3 PH3" "SO SO" "MI E2" "H1 H1" "MY MY" "H2 H2" "AN MO" "SY PG" "VI E3" "PP3 PP3" "M7 M8" "SO2 VK" "H4 VK" "MY2 VK" "H5 VK" "PJ VK" "IO VK" "PP4 VK";
+ }
   .fizra2, .physics2, .hardyak3, .projprac2, .fizra3, .softyar2, .projprac3, .hardyak4, .matyan2, .hardyak5, .projprac4 {
     display: flex;
-  }
-
-  .softyar3, .hardyak6, .hardyak7, .matyan3, .hardyak8 {
+ }
+  .softyar3, .hardyak6, .hardyak7, .matyan3, .hardyak8, .empty5, .empty6, .empty4, .empty7 {
     display: none;
-  }
+ }
 }
 .hardtable {
   display: grid;
@@ -971,7 +834,7 @@ div, td, h2, p {
   grid-template-areas: "D1 D2 TTT TTT D5 D6 D7 D8" "E8 E8 TTT TTT po pa is kr" "E8 E8 TTT TTT po an io kr" "E8 E8 TTT TTT po we se kr" "E8 E8 TTT TTT ma bd cv kr" "E8 E8 TTT TTT ga d3 re kr" "ce ce ce ce te un tt kr" "ce ce ce ce sy c1 sy2 kr" "ce ce ce ce sy ac ig kr" "ce ce ce ce ld sp cp kr" "ce ce ce ce ld mc rt kr" "ce ce ce ce db fd pd kr" "ce ce ce ce ss so ah kr" "ce ce ce ce gh fi ri kr" "ce ce ce ce pr pg ks kr" "ce ce ce ce sl mg ux kr" "ce ce ce ce mt ts sc kr";
 }
 .hardtable .aqua {
-  background-color: #36F5E2;
+  background-color: #36f5e2;
   display: flex;
   align-items: center;
   text-align: center;
@@ -979,8 +842,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .darkblue {
-  background-color: #3547F4;
-  color: #FFFFFF;
+  background-color: #3547f4;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -988,8 +851,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .ice {
-  background-color: #6236F5;
-  color: #FFFFFF;
+  background-color: #6236f5;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -997,7 +860,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .purple {
-  background-color: #A236F5;
+  background-color: #a236f5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1005,7 +868,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lightpurple {
-  background-color: #E236F5;
+  background-color: #e236f5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1013,8 +876,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lightpink {
-  background-color: #F53689;
-  color: #FFFFFF;
+  background-color: #f53689;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1022,8 +885,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .orange {
-  background-color: #F56236;
-  color: #FFFFFF;
+  background-color: #f56236;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1031,8 +894,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lightorange {
-  background-color: #F5A236;
-  color: #FFFFFF;
+  background-color: #f5a236;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1040,7 +903,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lemon {
-  background-color: #E8F536;
+  background-color: #e8f536;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1048,7 +911,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lime {
-  background-color: #A8F536;
+  background-color: #a8f536;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1056,7 +919,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .salad {
-  background-color: #36F562;
+  background-color: #36f562;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1064,7 +927,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .water {
-  background-color: #36F5A2;
+  background-color: #36f5a2;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1072,8 +935,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .halfpurple {
-  background-color: #3689F5;
-  color: #FFFFFF;
+  background-color: #3689f5;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1081,7 +944,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lightblue {
-  background-color: #36C8F5;
+  background-color: #36c8f5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1089,8 +952,8 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .red {
-  background-color: #F53649;
-  color: #FFFFFf;
+  background-color: #f53649;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1098,7 +961,7 @@ div, td, h2, p {
   justify-content: center;
 }
 .hardtable .lightpurpleice {
-  background-color: #F536C8;
+  background-color: #f536c8;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1108,48 +971,38 @@ div, td, h2, p {
 .hardtable .colortable {
   display: block;
 }
-
-[class^=hardsem] {
-  background-color: #C3CED5;
+[class^="hardsem"] {
+  background-color: #c3ced5;
   text-align: center;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .hardsem1 {
   grid-area: D1;
 }
-
 .hardsem2 {
   grid-area: D2;
 }
-
 .hardsem3 {
   grid-area: D3;
 }
-
 .hardsem4 {
   grid-area: D4;
 }
-
 .hardsem5 {
   grid-area: D5;
 }
-
 .hardsem6 {
   grid-area: D6;
 }
-
 .hardsem7 {
   grid-area: D7;
 }
-
 .hardsem8 {
   grid-area: D8;
 }
-
 .programmingskills {
   grid-area: TTT;
   display: grid;
@@ -1159,219 +1012,165 @@ div, td, h2, p {
   row-gap: 11px;
   grid-template-areas: "D3 D4" "jv jv2" "js js2" "ph ph2" "E9 py2" "E9 sh";
 }
-
 .java {
   grid-area: jv;
 }
-
 .js {
   grid-area: js;
 }
-
 .php {
   grid-area: ph;
 }
-
 .java2 {
   grid-area: jv2;
 }
-
 .js2 {
   grid-area: js2;
 }
-
 .php2 {
   grid-area: ph2;
 }
-
 .python2 {
   grid-area: py2;
 }
-
 .cs {
   grid-area: sh;
 }
-
 .proecting {
   grid-area: po;
 }
-
 .machine {
   grid-area: ma;
 }
-
 .gamedev {
   grid-area: ga;
 }
-
 .parallel {
   grid-area: pa;
 }
-
 .android {
   grid-area: an;
 }
-
 .clientweb {
   grid-area: we;
 }
-
 .bigdata {
   grid-area: bd;
 }
-
 .d3 {
   grid-area: d3;
 }
-
 .is {
   grid-area: is;
 }
-
 .ios {
   grid-area: io;
 }
-
 .serviceweb {
   grid-area: se;
 }
-
 .computervision {
   grid-area: cv;
 }
-
 .virtualreal {
   grid-area: re;
 }
-
 .colortable {
   grid-area: ce;
 }
-
 .testing {
   grid-area: te;
 }
-
 .corpinfsys {
   grid-area: sy;
 }
-
 .lowdawn {
   grid-area: ld;
 }
-
 .admindb {
   grid-area: db;
 }
-
 .serversettings {
   grid-area: ss;
 }
-
 .graphpock {
   grid-area: gh;
 }
-
 .product {
   grid-area: pr;
 }
-
 .sysanal {
   grid-area: sl;
 }
-
 .marketing {
   grid-area: mt;
 }
-
 .unfunctionalset {
   grid-area: un;
 }
-
 .programmingc {
   grid-area: c1;
 }
-
 .admincorpsys {
   grid-area: ac;
 }
-
 .sysprog {
   grid-area: sp;
 }
-
 .microcontrol {
   grid-area: mc;
 }
-
 .functiondb {
   grid-area: fd;
 }
-
 .sendpo {
   grid-area: so;
 }
-
 .interface {
   grid-area: fi;
 }
-
 .planning {
   grid-area: pg;
 }
-
 .manage {
   grid-area: mg;
 }
-
 .topsite {
   grid-area: ts;
 }
-
 .testingint {
   grid-area: tt;
 }
-
 .corpinfsys2 {
   grid-area: sy2;
 }
-
 .integration {
   grid-area: ig;
 }
-
 .createprog {
   grid-area: cp;
 }
-
 .internetthings {
   grid-area: rt;
 }
-
 .protectdb {
   grid-area: pd;
 }
-
 .architect {
   grid-area: ah;
 }
-
 .relaxint {
   grid-area: ri;
 }
-
 .risks {
   grid-area: ks;
 }
-
 .ux {
   grid-area: ux;
 }
-
 .topsocnet {
   grid-area: sc;
 }
-
 .vkrhard {
   grid-area: kr;
   display: flex;
@@ -1379,36 +1178,33 @@ div, td, h2, p {
   align-items: center;
   height: 100%;
 }
-
 .empty8 {
   grid-area: E8;
 }
-
 .empty9 {
   grid-area: E9;
 }
-
 @media (max-width: 765px) {
   .hardtable {
     grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: 33px repeat(5, 70px) 33px repeat(27, 70px);
     grid-template-areas: "TTT TTT TTT" "TTT TTT TTT" "TTT TTT TTT" "TTT TTT TTT" "TTT TTT TTT" "TTT TTT TTT" "D5 D6 D7" "po pa is" "po an io" "po we se" "ma bd cv" "ga d3 re" "te un tt" "sy c1 sy2" "sy ac ig" "ld sp cp" "ld mc rt" "db fd pd" "ss so ah" "gh fi ri" "pr pg ks" "sl mg ux" "mt ts sc" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce" "ce ce ce";
-  }
+ }
   .hardtable .colortable {
     margin: 0;
-  }
+ }
   .hardtable .colortable .colors {
     flex-wrap: wrap;
     justify-content: flex-start;
-  }
+ }
   .hardtable .vkrhard, .hardtable .hardsem1, .hardtable .hardsem2, .hardtable .hardsem8 {
     display: none;
-  }
+ }
 }
 @media (max-width: 455px) {
   .colortable .colors .colorcol .colorpro {
     margin: 0px;
-  }
+ }
 }
 .profmathskills {
   display: grid;
@@ -1427,82 +1223,69 @@ div, td, h2, p {
   border-radius: 5px;
   padding: 2px;
 }
-
 .mathsemestr {
   grid-area: a;
-  background-color: #C3CED5;
+  background-color: #c3ced5;
 }
-
 .numbermethods {
   grid-area: b;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .statistic {
   grid-area: c;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .theorycoding {
   grid-area: d;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .progcompgraph {
   grid-area: e;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .combination {
   grid-area: f;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .proccesses {
   grid-area: g;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .gametheory {
   grid-area: h;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .datacsience {
   grid-area: i;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .methodsoptimisation {
   grid-area: j;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .garanty {
   grid-area: k;
-  background-color: #C09A72;
-  color: #FFFFFF;
+  background-color: #c09a72;
+  color: #fff;
 }
-
 .empty10 {
   grid-area: E10;
 }
-
 @media (max-width: 765px) {
   .profmathskills {
     grid-template-columns: repeat(3, 33.2%);
     grid-template-rows: repeat(8, 33px);
     grid-template-areas: "a a a" "b f j" "b f j" "c g k" "d g k" "d h k" "e h E10" "e i E10";
-  }
+ }
 }
 .profskills {
   display: grid;
@@ -1521,145 +1304,119 @@ div, td, h2, p {
   border-radius: 5px;
   padding: 2px;
 }
-
 .softsemestr {
   grid-area: l;
-  background-color: #C3CED5;
+  background-color: #c3ced5;
 }
-
 .financial {
   grid-area: m;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .finanal {
   grid-area: bb;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .sociologic {
   grid-area: n;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .economic {
   grid-area: o;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .buh1c {
   grid-area: p;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .teaching {
   grid-area: q;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .economicfinance {
   grid-area: s;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .artoftalk {
   grid-area: t;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .commerce {
   grid-area: u;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .selfmanagement {
   grid-area: v;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .psyhology {
   grid-area: w;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .culturewriting {
   grid-area: x;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .criticalthink {
   grid-area: y;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .soccommunication {
   grid-area: z;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .orgmanagement {
   grid-area: aa;
-  background-color: #FFCA93;
+  background-color: #ffca93;
 }
-
 .empty11 {
   grid-area: E11;
 }
-
 .empty12 {
   grid-area: E12;
 }
-
 @media (max-width: 765px) {
   .profskills {
-    grid-template-columns: repeat(1, 99.7%);
-    grid-template-rows: repeat(16, 25px);
-    grid-template-areas: "l" "m" "bb" "n" "o" "p" "q" "s" "t" "u" "v" "w" "x" "y" "z" "aa";
-  }
-
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(7, 25px);
+    grid-template-areas: "l l l" "m q z" "m q z" "bb s w" "n t x" "o u y" "p v aa";
+ }
   .empty11, .empty12 {
     display: none;
-  }
+ }
 }
 @media (max-width: 765px) {
   .wrapper {
     font-size: 11px;
-  }
-
+ }
   div {
     font-size: 11px;
-  }
-
+ }
   .titleprof {
     font-size: 14px;
     text-align: center;
     padding: 0px;
     width: 100%;
-  }
+ }
   .titleprof h2 {
     padding: 0px;
     display: flex;
     align-items: center;
     font-size: 18px;
     width: 90%;
-  }
-
+ }
   .colortable .colors .colorcol .colorpro {
     margin-bottom: 0px;
-  }
+ }
 }
 @media (min-width: 766px) and (max-width: 951px) {
   div {
     font-size: 12px;
-  }
-
+ }
   .titleprof h2 {
     padding: 0;
     display: flex;
     align-items: center;
     font-size: 20px;
     width: 90%;
-  }
+ }
 }
-
-/*# sourceMappingURL=style.css.map */
