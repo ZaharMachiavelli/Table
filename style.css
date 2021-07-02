@@ -815,13 +815,13 @@ div, td, h2, p {
 @media (max-width: 765px) {
   .maintable {
     grid-template-columns: repeat(2, 49.9%);
-    grid-template-rows: 33px repeat(9, 60px) 33px repeat(11, 60px) 33px repeat(10, 60px) 33px repeat(7, 60px);
-    grid-template-areas: "M1 M2" "PH PH" "HI PI" "BZ FI" "EN EN" "MT MT" "PA PA" "IN EG" "PR PR" "LT PP" "M3 M4" "PH2 PH2" "CO BU" "FI2 MA" "H3 H3" "TH AL" "LO DI" "E1 SP" "PY OP" "WE CS" "DA CM" "PP2 PP2" "M5 M6" "PH3 PH3" "SO SO" "MI E2" "H1 H1" "MY MY" "H2 H2" "AN MO" "SY PG" "VI E3" "PP3 PP3" "M7 M8" "SO2 VK" "H4 VK" "MY2 VK" "H5 VK" "PJ VK" "IO VK" "PP4 VK";
+    grid-template-rows: 33px repeat(9, 70px) 33px repeat(11, 70px) 33px repeat(10, 70px) 33px repeat(7, 70px);
+    grid-template-areas: "M1 M2" "PH PH" "HI PI" "BZ FI" "EN EN" "MT MT" "PA PA" "IN EG" "PR PR" "LT PP" "M3 M4" "PH2 PH2" "CO BU" "FI2 MA" "H3 H6" "TH AL" "LO DI" "E1 SP" "PY OP" "WE CS" "DA CM" "PP2 PP2" "M5 M6" "PH3 PH3" "SO SO3" "MI E2" "H1 H7" "MY MY" "H2 H8" "AN MO" "SY PG" "VI E3" "PP3 PP3" "M7 M8" "SO2 VK" "H4 VK" "MY2 VK" "H5 VK" "PJ VK" "IO VK" "PP4 VK";
  }
   .fizra2, .physics2, .hardyak3, .projprac2, .fizra3, .softyar2, .projprac3, .hardyak4, .matyan2, .hardyak5, .projprac4 {
     display: flex;
  }
-  .softyar3, .hardyak6, .hardyak7, .matyan3, .hardyak8, .empty5, .empty6, .empty4, .empty7 {
+    .matyan3, .empty5, .empty6, .empty4, .empty7 {
     display: none;
  }
 }
@@ -1394,7 +1394,8 @@ div, td, h2, p {
  }
   .titleprof {
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+    
     padding: 0px;
     width: 100%;
  }
@@ -1403,8 +1404,14 @@ div, td, h2, p {
     display: flex;
     align-items: center;
     font-size: 18px;
+    padding-left: 5px;
     width: 90%;
  }
+
+ .mustcources {
+  font-size: 22px;
+}
+
   .colortable .colors .colorcol .colorpro {
     margin-bottom: 0px;
  }
@@ -1415,23 +1422,29 @@ div, td, h2, p {
     font-size: 11px;
  }
   div, p {
-    font-size: 9px;
+    font-size: 11px;
  }
   .titleprof {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     padding: 0px;
     width: 100%;
+    
  }
+ 
+
   .titleprof h2 {
     padding: 0px;
     display: flex;
     align-items: center;
     font-size: 14px;
     width: 90%;
+    padding-left: 5px;
  }
+
+
   .colortable .colors .colorcol .colorpro {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
  }
 }
 
@@ -1443,7 +1456,13 @@ div, td, h2, p {
     padding: 0;
     display: flex;
     align-items: center;
-    font-size: 20px;
     width: 90%;
+ }
+ .unmustcources {
+   font-size: 20px;
+ }
+
+ .mustcources {
+   font-size: 24px;
  }
 }
