@@ -689,7 +689,7 @@ div, td, h2, p {
 @media (max-width:765px) {
     .maintable {
         grid-template-columns: repeat(2,49.9%);
-        grid-template-rows: 33px repeat(9,72px) 33px repeat(11,72px) 33px repeat(10,72px) 33px repeat(7,72px);
+        grid-template-rows: 33px repeat(9,60px) 33px repeat(11,60px) 33px repeat(10,60px) 33px repeat(7,60px);
         grid-template-areas: 
         "M1 M2"
         "PH PH"
@@ -1196,7 +1196,7 @@ div, td, h2, p {
 
     .profskills {
         grid-template-columns: repeat(3,33.3%);
-        grid-template-rows: repeat(7, 25px);
+        grid-template-rows: repeat(7, 33px);
         grid-template-areas: 
         // "l"
         // "m"
